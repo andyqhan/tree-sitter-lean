@@ -12,6 +12,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -228,6 +232,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -426,6 +434,205 @@
     }
   },
   {
+    "type": "abs",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
+        {
+          "type": "anonymous_constructor",
+          "named": true
+        },
+        {
+          "type": "apply",
+          "named": true
+        },
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "arrow",
+          "named": true
+        },
+        {
+          "type": "assumption_literal",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "borrowed",
+          "named": true
+        },
+        {
+          "type": "cdot",
+          "named": true
+        },
+        {
+          "type": "char",
+          "named": true
+        },
+        {
+          "type": "comparison",
+          "named": true
+        },
+        {
+          "type": "do",
+          "named": true
+        },
+        {
+          "type": "double_quoted_name",
+          "named": true
+        },
+        {
+          "type": "exists",
+          "named": true
+        },
+        {
+          "type": "explicit",
+          "named": true
+        },
+        {
+          "type": "false",
+          "named": true
+        },
+        {
+          "type": "float",
+          "named": true
+        },
+        {
+          "type": "forall",
+          "named": true
+        },
+        {
+          "type": "fun",
+          "named": true
+        },
+        {
+          "type": "have",
+          "named": true
+        },
+        {
+          "type": "hole",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
+          "type": "interpolated_string",
+          "named": true
+        },
+        {
+          "type": "let",
+          "named": true
+        },
+        {
+          "type": "lift_method",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "match",
+          "named": true
+        },
+        {
+          "type": "neg",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "parenthesized",
+          "named": true
+        },
+        {
+          "type": "product",
+          "named": true
+        },
+        {
+          "type": "proj",
+          "named": true
+        },
+        {
+          "type": "quoted",
+          "named": true
+        },
+        {
+          "type": "quoted_name",
+          "named": true
+        },
+        {
+          "type": "quoted_tactic",
+          "named": true
+        },
+        {
+          "type": "range",
+          "named": true
+        },
+        {
+          "type": "sorry",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "structure_instance",
+          "named": true
+        },
+        {
+          "type": "subarray",
+          "named": true
+        },
+        {
+          "type": "subtype",
+          "named": true
+        },
+        {
+          "type": "synthetic_hole",
+          "named": true
+        },
+        {
+          "type": "tactics",
+          "named": true
+        },
+        {
+          "type": "true",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "unless",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "anonymous_constructor",
     "named": true,
     "fields": {},
@@ -433,6 +640,10 @@
       "multiple": true,
       "required": false,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -629,6 +840,10 @@
         "required": false,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -818,6 +1033,10 @@
         "multiple": true,
         "required": false,
         "types": [
+          {
+            "type": "abs",
+            "named": true
+          },
           {
             "type": "anonymous_constructor",
             "named": true
@@ -1017,6 +1236,10 @@
         "required": true,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -1213,6 +1436,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -1408,6 +1635,10 @@
       "required": false,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -1602,6 +1833,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -1808,6 +2043,10 @@
         "required": true,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -2003,6 +2242,10 @@
       "multiple": false,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -2263,6 +2506,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -2468,6 +2715,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -2682,6 +2933,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -2873,7 +3128,87 @@
       "required": false,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
+          "type": "anonymous_constructor",
+          "named": true
+        },
+        {
+          "type": "apply",
+          "named": true
+        },
+        {
+          "type": "array",
+          "named": true
+        },
+        {
+          "type": "arrow",
+          "named": true
+        },
+        {
+          "type": "assumption_literal",
+          "named": true
+        },
+        {
+          "type": "binary_expression",
+          "named": true
+        },
+        {
+          "type": "borrowed",
+          "named": true
+        },
+        {
+          "type": "cdot",
+          "named": true
+        },
+        {
+          "type": "char",
+          "named": true
+        },
+        {
+          "type": "comparison",
+          "named": true
+        },
+        {
+          "type": "do",
+          "named": true
+        },
+        {
+          "type": "double_quoted_name",
+          "named": true
+        },
+        {
+          "type": "exists",
+          "named": true
+        },
+        {
+          "type": "explicit",
+          "named": true
+        },
+        {
           "type": "explicit_binder",
+          "named": true
+        },
+        {
+          "type": "false",
+          "named": true
+        },
+        {
+          "type": "float",
+          "named": true
+        },
+        {
+          "type": "forall",
+          "named": true
+        },
+        {
+          "type": "fun",
+          "named": true
+        },
+        {
+          "type": "have",
           "named": true
         },
         {
@@ -2885,11 +3220,111 @@
           "named": true
         },
         {
+          "type": "if_then_else",
+          "named": true
+        },
+        {
           "type": "implicit_binder",
           "named": true
         },
         {
           "type": "instance_binder",
+          "named": true
+        },
+        {
+          "type": "interpolated_string",
+          "named": true
+        },
+        {
+          "type": "let",
+          "named": true
+        },
+        {
+          "type": "lift_method",
+          "named": true
+        },
+        {
+          "type": "list",
+          "named": true
+        },
+        {
+          "type": "match",
+          "named": true
+        },
+        {
+          "type": "neg",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "parenthesized",
+          "named": true
+        },
+        {
+          "type": "product",
+          "named": true
+        },
+        {
+          "type": "proj",
+          "named": true
+        },
+        {
+          "type": "quoted",
+          "named": true
+        },
+        {
+          "type": "quoted_name",
+          "named": true
+        },
+        {
+          "type": "quoted_tactic",
+          "named": true
+        },
+        {
+          "type": "range",
+          "named": true
+        },
+        {
+          "type": "sorry",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "structure_instance",
+          "named": true
+        },
+        {
+          "type": "subarray",
+          "named": true
+        },
+        {
+          "type": "subtype",
+          "named": true
+        },
+        {
+          "type": "synthetic_hole",
+          "named": true
+        },
+        {
+          "type": "tactics",
+          "named": true
+        },
+        {
+          "type": "true",
+          "named": true
+        },
+        {
+          "type": "unary_expression",
+          "named": true
+        },
+        {
+          "type": "unless",
           "named": true
         }
       ]
@@ -2903,6 +3338,10 @@
       "multiple": false,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -3061,6 +3500,10 @@
           {
             "type": ":",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -3254,220 +3697,9 @@
       "required": true,
       "types": [
         {
-          "type": "anonymous_constructor",
+          "type": "abs",
           "named": true
         },
-        {
-          "type": "apply",
-          "named": true
-        },
-        {
-          "type": "array",
-          "named": true
-        },
-        {
-          "type": "arrow",
-          "named": true
-        },
-        {
-          "type": "assign",
-          "named": true
-        },
-        {
-          "type": "assumption_literal",
-          "named": true
-        },
-        {
-          "type": "binary_expression",
-          "named": true
-        },
-        {
-          "type": "borrowed",
-          "named": true
-        },
-        {
-          "type": "cdot",
-          "named": true
-        },
-        {
-          "type": "char",
-          "named": true
-        },
-        {
-          "type": "comparison",
-          "named": true
-        },
-        {
-          "type": "do",
-          "named": true
-        },
-        {
-          "type": "do_return",
-          "named": true
-        },
-        {
-          "type": "double_quoted_name",
-          "named": true
-        },
-        {
-          "type": "exists",
-          "named": true
-        },
-        {
-          "type": "explicit",
-          "named": true
-        },
-        {
-          "type": "false",
-          "named": true
-        },
-        {
-          "type": "float",
-          "named": true
-        },
-        {
-          "type": "for_in",
-          "named": true
-        },
-        {
-          "type": "forall",
-          "named": true
-        },
-        {
-          "type": "fun",
-          "named": true
-        },
-        {
-          "type": "have",
-          "named": true
-        },
-        {
-          "type": "hole",
-          "named": true
-        },
-        {
-          "type": "identifier",
-          "named": true
-        },
-        {
-          "type": "if_then_else",
-          "named": true
-        },
-        {
-          "type": "interpolated_string",
-          "named": true
-        },
-        {
-          "type": "let",
-          "named": true
-        },
-        {
-          "type": "let_bind",
-          "named": true
-        },
-        {
-          "type": "let_mut",
-          "named": true
-        },
-        {
-          "type": "lift_method",
-          "named": true
-        },
-        {
-          "type": "list",
-          "named": true
-        },
-        {
-          "type": "match",
-          "named": true
-        },
-        {
-          "type": "neg",
-          "named": true
-        },
-        {
-          "type": "number",
-          "named": true
-        },
-        {
-          "type": "parenthesized",
-          "named": true
-        },
-        {
-          "type": "product",
-          "named": true
-        },
-        {
-          "type": "proj",
-          "named": true
-        },
-        {
-          "type": "quoted",
-          "named": true
-        },
-        {
-          "type": "quoted_name",
-          "named": true
-        },
-        {
-          "type": "quoted_tactic",
-          "named": true
-        },
-        {
-          "type": "range",
-          "named": true
-        },
-        {
-          "type": "sorry",
-          "named": true
-        },
-        {
-          "type": "string",
-          "named": true
-        },
-        {
-          "type": "structure_instance",
-          "named": true
-        },
-        {
-          "type": "subarray",
-          "named": true
-        },
-        {
-          "type": "subtype",
-          "named": true
-        },
-        {
-          "type": "synthetic_hole",
-          "named": true
-        },
-        {
-          "type": "tactics",
-          "named": true
-        },
-        {
-          "type": "true",
-          "named": true
-        },
-        {
-          "type": "unary_expression",
-          "named": true
-        },
-        {
-          "type": "unless",
-          "named": true
-        }
-      ]
-    }
-  },
-  {
-    "type": "catch",
-    "named": true,
-    "fields": {},
-    "children": {
-      "multiple": true,
-      "required": true,
-      "types": [
         {
           "type": "anonymous_constructor",
           "named": true
@@ -3746,6 +3978,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -3951,6 +4187,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -4161,6 +4401,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -4351,6 +4595,10 @@
       "multiple": true,
       "required": false,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -4565,6 +4813,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -4763,6 +5015,16 @@
     }
   },
   {
+    "type": "contrapose_tactic",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "decide_tactic",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "declaration",
     "named": true,
     "fields": {},
@@ -4828,6 +5090,10 @@
           {
             "type": ":=",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -5046,6 +5312,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -5251,6 +5521,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -5467,6 +5741,10 @@
         "required": false,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -5678,6 +5956,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -5875,6 +6157,10 @@
           {
             "type": ":=",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -6081,6 +6367,10 @@
           {
             "type": ":",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -6299,6 +6589,10 @@
         "required": true,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -6495,6 +6789,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -6652,6 +6950,10 @@
           {
             "type": ":=",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -6860,6 +7162,10 @@
           {
             "type": ":",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -7092,6 +7398,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -7296,6 +7606,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -7488,221 +7802,6 @@
     }
   },
   {
-    "type": "finally",
-    "named": true,
-    "fields": {},
-    "children": {
-      "multiple": true,
-      "required": true,
-      "types": [
-        {
-          "type": "anonymous_constructor",
-          "named": true
-        },
-        {
-          "type": "apply",
-          "named": true
-        },
-        {
-          "type": "array",
-          "named": true
-        },
-        {
-          "type": "arrow",
-          "named": true
-        },
-        {
-          "type": "assign",
-          "named": true
-        },
-        {
-          "type": "assumption_literal",
-          "named": true
-        },
-        {
-          "type": "binary_expression",
-          "named": true
-        },
-        {
-          "type": "borrowed",
-          "named": true
-        },
-        {
-          "type": "cdot",
-          "named": true
-        },
-        {
-          "type": "char",
-          "named": true
-        },
-        {
-          "type": "comparison",
-          "named": true
-        },
-        {
-          "type": "do",
-          "named": true
-        },
-        {
-          "type": "do_return",
-          "named": true
-        },
-        {
-          "type": "double_quoted_name",
-          "named": true
-        },
-        {
-          "type": "exists",
-          "named": true
-        },
-        {
-          "type": "explicit",
-          "named": true
-        },
-        {
-          "type": "false",
-          "named": true
-        },
-        {
-          "type": "float",
-          "named": true
-        },
-        {
-          "type": "for_in",
-          "named": true
-        },
-        {
-          "type": "forall",
-          "named": true
-        },
-        {
-          "type": "fun",
-          "named": true
-        },
-        {
-          "type": "have",
-          "named": true
-        },
-        {
-          "type": "hole",
-          "named": true
-        },
-        {
-          "type": "identifier",
-          "named": true
-        },
-        {
-          "type": "if_then_else",
-          "named": true
-        },
-        {
-          "type": "interpolated_string",
-          "named": true
-        },
-        {
-          "type": "let",
-          "named": true
-        },
-        {
-          "type": "let_bind",
-          "named": true
-        },
-        {
-          "type": "let_mut",
-          "named": true
-        },
-        {
-          "type": "lift_method",
-          "named": true
-        },
-        {
-          "type": "list",
-          "named": true
-        },
-        {
-          "type": "match",
-          "named": true
-        },
-        {
-          "type": "neg",
-          "named": true
-        },
-        {
-          "type": "number",
-          "named": true
-        },
-        {
-          "type": "parenthesized",
-          "named": true
-        },
-        {
-          "type": "product",
-          "named": true
-        },
-        {
-          "type": "proj",
-          "named": true
-        },
-        {
-          "type": "quoted",
-          "named": true
-        },
-        {
-          "type": "quoted_name",
-          "named": true
-        },
-        {
-          "type": "quoted_tactic",
-          "named": true
-        },
-        {
-          "type": "range",
-          "named": true
-        },
-        {
-          "type": "sorry",
-          "named": true
-        },
-        {
-          "type": "string",
-          "named": true
-        },
-        {
-          "type": "structure_instance",
-          "named": true
-        },
-        {
-          "type": "subarray",
-          "named": true
-        },
-        {
-          "type": "subtype",
-          "named": true
-        },
-        {
-          "type": "synthetic_hole",
-          "named": true
-        },
-        {
-          "type": "tactics",
-          "named": true
-        },
-        {
-          "type": "true",
-          "named": true
-        },
-        {
-          "type": "unary_expression",
-          "named": true
-        },
-        {
-          "type": "unless",
-          "named": true
-        }
-      ]
-    }
-  },
-  {
     "type": "for_in",
     "named": true,
     "fields": {
@@ -7720,6 +7819,10 @@
         "multiple": false,
         "required": true,
         "types": [
+          {
+            "type": "abs",
+            "named": true
+          },
           {
             "type": "anonymous_constructor",
             "named": true
@@ -7941,6 +8044,10 @@
         "required": true,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -8141,6 +8248,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -8331,6 +8442,10 @@
       "multiple": true,
       "required": false,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -8530,6 +8645,10 @@
       "multiple": false,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -8766,6 +8885,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -8956,6 +9079,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -9160,6 +9287,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -9372,6 +9503,10 @@
           {
             "type": ":",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -9632,6 +9767,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -9840,6 +9979,10 @@
           {
             "type": ":=",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -10056,6 +10199,10 @@
           {
             "type": ":",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -10278,6 +10425,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -10497,6 +10648,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -10692,6 +10847,10 @@
       "required": false,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -10886,6 +11045,10 @@
         "multiple": false,
         "required": false,
         "types": [
+          {
+            "type": "abs",
+            "named": true
+          },
           {
             "type": "anonymous_constructor",
             "named": true
@@ -11097,6 +11260,10 @@
         "required": false,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -11286,6 +11453,10 @@
         "multiple": false,
         "required": true,
         "types": [
+          {
+            "type": "abs",
+            "named": true
+          },
           {
             "type": "anonymous_constructor",
             "named": true
@@ -11493,6 +11664,10 @@
         "required": true,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -11688,6 +11863,10 @@
         "multiple": false,
         "required": true,
         "types": [
+          {
+            "type": "abs",
+            "named": true
+          },
           {
             "type": "anonymous_constructor",
             "named": true
@@ -11895,6 +12074,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -12049,6 +12232,10 @@
       "multiple": true,
       "required": false,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -12245,6 +12432,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -12266,6 +12457,10 @@
         },
         {
           "type": "assumption_literal",
+          "named": true
+        },
+        {
+          "type": "assumption_tactic",
           "named": true
         },
         {
@@ -12294,6 +12489,22 @@
         },
         {
           "type": "comparison",
+          "named": true
+        },
+        {
+          "type": "constructor_tactic",
+          "named": true
+        },
+        {
+          "type": "contradiction_tactic",
+          "named": true
+        },
+        {
+          "type": "contrapose_tactic",
+          "named": true
+        },
+        {
+          "type": "decide_tactic",
           "named": true
         },
         {
@@ -12413,6 +12624,10 @@
           "named": true
         },
         {
+          "type": "omega_tactic",
+          "named": true
+        },
+        {
           "type": "open",
           "named": true
         },
@@ -12453,6 +12668,10 @@
           "named": true
         },
         {
+          "type": "ring_tactic",
+          "named": true
+        },
+        {
           "type": "section",
           "named": true
         },
@@ -12490,6 +12709,10 @@
         },
         {
           "type": "tactics",
+          "named": true
+        },
+        {
+          "type": "tauto_tactic",
           "named": true
         },
         {
@@ -12559,6 +12782,10 @@
           {
             "type": ":",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -12757,6 +12984,10 @@
           {
             "type": ":",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -12959,6 +13190,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -13149,6 +13384,10 @@
       "multiple": false,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -13345,6 +13584,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -13494,6 +13737,7 @@
   {
     "type": "module",
     "named": true,
+    "root": true,
     "fields": {},
     "children": {
       "multiple": true,
@@ -13582,6 +13826,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -13874,6 +14122,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -14068,6 +14320,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -14392,6 +14648,10 @@
       "required": false,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -14595,6 +14855,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -14764,6 +15028,10 @@
         "required": true,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -14919,6 +15187,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -15154,6 +15426,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -15178,6 +15454,10 @@
           "named": true
         },
         {
+          "type": "assumption_tactic",
+          "named": true
+        },
+        {
           "type": "binary_expression",
           "named": true
         },
@@ -15195,6 +15475,22 @@
         },
         {
           "type": "comparison",
+          "named": true
+        },
+        {
+          "type": "constructor_tactic",
+          "named": true
+        },
+        {
+          "type": "contradiction_tactic",
+          "named": true
+        },
+        {
+          "type": "contrapose_tactic",
+          "named": true
+        },
+        {
+          "type": "decide_tactic",
           "named": true
         },
         {
@@ -15278,6 +15574,10 @@
           "named": true
         },
         {
+          "type": "omega_tactic",
+          "named": true
+        },
+        {
           "type": "parenthesized",
           "named": true
         },
@@ -15314,6 +15614,10 @@
           "named": true
         },
         {
+          "type": "ring_tactic",
+          "named": true
+        },
+        {
           "type": "simp",
           "named": true
         },
@@ -15343,6 +15647,10 @@
         },
         {
           "type": "tactics",
+          "named": true
+        },
+        {
+          "type": "tauto_tactic",
           "named": true
         },
         {
@@ -15376,6 +15684,10 @@
         "multiple": false,
         "required": false,
         "types": [
+          {
+            "type": "abs",
+            "named": true
+          },
           {
             "type": "anonymous_constructor",
             "named": true
@@ -15567,6 +15879,10 @@
         "required": false,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -15756,6 +16072,10 @@
         "multiple": false,
         "required": true,
         "types": [
+          {
+            "type": "abs",
+            "named": true
+          },
           {
             "type": "anonymous_constructor",
             "named": true
@@ -15953,6 +16273,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -16140,6 +16464,16 @@
     }
   },
   {
+    "type": "rfl",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "ring_tactic",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "section",
     "named": true,
     "fields": {
@@ -16239,12 +16573,208 @@
     "type": "simp",
     "named": true,
     "fields": {
-      "extra": {
-        "multiple": false,
+      "config": {
+        "multiple": true,
         "required": false,
         "types": [
           {
+            "type": ",",
+            "named": false
+          },
+          {
+            "type": "[",
+            "named": false
+          },
+          {
+            "type": "]",
+            "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
+          },
+          {
+            "type": "anonymous_constructor",
+            "named": true
+          },
+          {
+            "type": "apply",
+            "named": true
+          },
+          {
+            "type": "array",
+            "named": true
+          },
+          {
+            "type": "arrow",
+            "named": true
+          },
+          {
+            "type": "assumption_literal",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "borrowed",
+            "named": true
+          },
+          {
+            "type": "cdot",
+            "named": true
+          },
+          {
+            "type": "char",
+            "named": true
+          },
+          {
+            "type": "comparison",
+            "named": true
+          },
+          {
+            "type": "do",
+            "named": true
+          },
+          {
+            "type": "double_quoted_name",
+            "named": true
+          },
+          {
+            "type": "exists",
+            "named": true
+          },
+          {
+            "type": "explicit",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": true
+          },
+          {
+            "type": "float",
+            "named": true
+          },
+          {
+            "type": "forall",
+            "named": true
+          },
+          {
+            "type": "fun",
+            "named": true
+          },
+          {
+            "type": "have",
+            "named": true
+          },
+          {
+            "type": "hole",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "if_then_else",
+            "named": true
+          },
+          {
+            "type": "interpolated_string",
+            "named": true
+          },
+          {
+            "type": "let",
+            "named": true
+          },
+          {
+            "type": "lift_method",
+            "named": true
+          },
+          {
             "type": "list",
+            "named": true
+          },
+          {
+            "type": "match",
+            "named": true
+          },
+          {
+            "type": "neg",
+            "named": true
+          },
+          {
+            "type": "number",
+            "named": true
+          },
+          {
+            "type": "parenthesized",
+            "named": true
+          },
+          {
+            "type": "product",
+            "named": true
+          },
+          {
+            "type": "proj",
+            "named": true
+          },
+          {
+            "type": "quoted",
+            "named": true
+          },
+          {
+            "type": "quoted_name",
+            "named": true
+          },
+          {
+            "type": "quoted_tactic",
+            "named": true
+          },
+          {
+            "type": "range",
+            "named": true
+          },
+          {
+            "type": "sorry",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "structure_instance",
+            "named": true
+          },
+          {
+            "type": "subarray",
+            "named": true
+          },
+          {
+            "type": "subtype",
+            "named": true
+          },
+          {
+            "type": "synthetic_hole",
+            "named": true
+          },
+          {
+            "type": "tactics",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "unless",
             "named": true
           }
         ]
@@ -16295,6 +16825,10 @@
           {
             "type": ",",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -16527,6 +17061,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -16737,6 +17275,10 @@
         "required": false,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -16945,6 +17487,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -17134,6 +17680,10 @@
         "multiple": true,
         "required": false,
         "types": [
+          {
+            "type": "abs",
+            "named": true
+          },
           {
             "type": "anonymous_constructor",
             "named": true
@@ -17331,6 +17881,10 @@
         "required": false,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -17520,6 +18074,10 @@
         "multiple": false,
         "required": false,
         "types": [
+          {
+            "type": "abs",
+            "named": true
+          },
           {
             "type": "anonymous_constructor",
             "named": true
@@ -17711,6 +18269,10 @@
         "required": true,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -17900,6 +18462,10 @@
         "multiple": false,
         "required": false,
         "types": [
+          {
+            "type": "abs",
+            "named": true
+          },
           {
             "type": "anonymous_constructor",
             "named": true
@@ -18096,6 +18662,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -18330,6 +18900,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -18354,6 +18928,10 @@
           "named": true
         },
         {
+          "type": "assumption_tactic",
+          "named": true
+        },
+        {
           "type": "binary_expression",
           "named": true
         },
@@ -18371,6 +18949,22 @@
         },
         {
           "type": "comparison",
+          "named": true
+        },
+        {
+          "type": "constructor_tactic",
+          "named": true
+        },
+        {
+          "type": "contradiction_tactic",
+          "named": true
+        },
+        {
+          "type": "contrapose_tactic",
+          "named": true
+        },
+        {
+          "type": "decide_tactic",
           "named": true
         },
         {
@@ -18454,6 +19048,10 @@
           "named": true
         },
         {
+          "type": "omega_tactic",
+          "named": true
+        },
+        {
           "type": "parenthesized",
           "named": true
         },
@@ -18490,6 +19088,10 @@
           "named": true
         },
         {
+          "type": "ring_tactic",
+          "named": true
+        },
+        {
           "type": "simp",
           "named": true
         },
@@ -18519,6 +19121,10 @@
         },
         {
           "type": "tactics",
+          "named": true
+        },
+        {
+          "type": "tauto_tactic",
           "named": true
         },
         {
@@ -18552,6 +19158,10 @@
       "multiple": false,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -18750,6 +19360,10 @@
           {
             "type": ":=",
             "named": false
+          },
+          {
+            "type": "abs",
+            "named": true
           },
           {
             "type": "anonymous_constructor",
@@ -18968,6 +19582,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -19174,6 +19792,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -19368,6 +19990,10 @@
         "multiple": false,
         "required": true,
         "types": [
+          {
+            "type": "abs",
+            "named": true
+          },
           {
             "type": "anonymous_constructor",
             "named": true
@@ -19565,6 +20191,10 @@
       "required": true,
       "types": [
         {
+          "type": "abs",
+          "named": true
+        },
+        {
           "type": "anonymous_constructor",
           "named": true
         },
@@ -19734,6 +20364,10 @@
       "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -19979,6 +20613,10 @@
         "required": false,
         "types": [
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -20187,6 +20825,10 @@
             "named": false
           },
           {
+            "type": "abs",
+            "named": true
+          },
+          {
             "type": "anonymous_constructor",
             "named": true
           },
@@ -20377,6 +21019,10 @@
       "multiple": true,
       "required": false,
       "types": [
+        {
+          "type": "abs",
+          "named": true
+        },
         {
           "type": "anonymous_constructor",
           "named": true
@@ -20809,6 +21455,10 @@
     "named": false
   },
   {
+    "type": "assumption_tactic",
+    "named": true
+  },
+  {
     "type": "attribute",
     "named": false
   },
@@ -20825,10 +21475,6 @@
     "named": false
   },
   {
-    "type": "catch",
-    "named": false
-  },
-  {
     "type": "class",
     "named": false
   },
@@ -20838,10 +21484,31 @@
   },
   {
     "type": "comment",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "constant",
+    "named": false
+  },
+  {
+    "type": "constructor_tactic",
+    "named": true
+  },
+  {
+    "type": "contradiction_tactic",
+    "named": true
+  },
+  {
+    "type": "contrapose",
+    "named": false
+  },
+  {
+    "type": "contrapose!",
+    "named": false
+  },
+  {
+    "type": "decide",
     "named": false
   },
   {
@@ -20895,10 +21562,6 @@
   {
     "type": "false",
     "named": true
-  },
-  {
-    "type": "finally",
-    "named": false
   },
   {
     "type": "float",
@@ -20961,7 +21624,15 @@
     "named": false
   },
   {
+    "type": "intros",
+    "named": false
+  },
+  {
     "type": "lead",
+    "named": false
+  },
+  {
+    "type": "lemma",
     "named": false
   },
   {
@@ -21005,6 +21676,10 @@
     "named": false
   },
   {
+    "type": "native_decide",
+    "named": false
+  },
+  {
     "type": "noncomputable",
     "named": false
   },
@@ -21014,6 +21689,10 @@
   },
   {
     "type": "number",
+    "named": true
+  },
+  {
+    "type": "omega_tactic",
     "named": true
   },
   {
@@ -21058,7 +21737,19 @@
   },
   {
     "type": "rfl",
-    "named": true
+    "named": false
+  },
+  {
+    "type": "rfl'",
+    "named": false
+  },
+  {
+    "type": "ring",
+    "named": false
+  },
+  {
+    "type": "ring_nf",
+    "named": false
   },
   {
     "type": "rw",
@@ -21081,6 +21772,10 @@
     "named": false
   },
   {
+    "type": "simp_all",
+    "named": false
+  },
+  {
     "type": "sorry",
     "named": true
   },
@@ -21097,6 +21792,10 @@
     "named": false
   },
   {
+    "type": "tauto_tactic",
+    "named": true
+  },
+  {
     "type": "then",
     "named": false
   },
@@ -21111,10 +21810,6 @@
   {
     "type": "true",
     "named": true
-  },
-  {
-    "type": "try",
-    "named": false
   },
   {
     "type": "universe",
@@ -21201,11 +21896,23 @@
     "named": false
   },
   {
+    "type": "↦",
+    "named": false
+  },
+  {
     "type": "∀",
     "named": false
   },
   {
     "type": "∃",
+    "named": false
+  },
+  {
+    "type": "∈",
+    "named": false
+  },
+  {
+    "type": "∉",
     "named": false
   },
   {
@@ -21233,11 +21940,35 @@
     "named": false
   },
   {
+    "type": "⊂",
+    "named": false
+  },
+  {
+    "type": "⊃",
+    "named": false
+  },
+  {
+    "type": "⊆",
+    "named": false
+  },
+  {
+    "type": "⊇",
+    "named": false
+  },
+  {
     "type": "⟨",
     "named": false
   },
   {
     "type": "⟩",
+    "named": false
+  },
+  {
+    "type": "⦇",
+    "named": false
+  },
+  {
+    "type": "⦈",
     "named": false
   }
 ]

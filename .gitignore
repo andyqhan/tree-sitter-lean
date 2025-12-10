@@ -1,1 +1,7 @@
 /foo.lean
+node_modules/
+build/
+*.dylib
+
+# Generated files (too large for GitHub, regenerate with: tree-sitter generate)
+src/parser.c

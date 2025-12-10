@@ -47,7 +47,7 @@ module.exports = {
     $._decl_val,
   ),
   theorem: $ => seq(
-    'theorem',
+    choice('theorem', 'lemma'),
     $._decl_id,
     $._decl_sig,
     $._decl_val,

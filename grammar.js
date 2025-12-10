@@ -172,13 +172,13 @@ module.exports = grammar({
       choice(
         seq(
           $.parameters,
-          '=>',
+          choice('=>', '↦'),
           $._expression,
         ),
         repeat(seq(
           '|',
           field('lhs', sep1($._expression, ',')),
-          '=>',
+          choice('=>', '↦'),
           $._expression,
         )),
       ),
@@ -237,6 +237,14 @@ module.exports = grammar({
 
       prec.left(PREC.equal, seq($._expression, '=', $._expression)),
       prec.left(PREC.equal, seq($._expression, '≠', $._expression)),
+
+      // Set membership
+      prec.left(PREC.compare, seq($._expression, '∈', $._expression)),
+      prec.left(PREC.compare, seq($._expression, '∉', $._expression)),
+      prec.left(PREC.compare, seq($._expression, '⊆', $._expression)),
+      prec.left(PREC.compare, seq($._expression, '⊇', $._expression)),
+      prec.left(PREC.compare, seq($._expression, '⊂', $._expression)),
+      prec.left(PREC.compare, seq($._expression, '⊃', $._expression)),
     ),
 
     comparison: $ => prec.left(PREC.compare, seq(
@@ -264,7 +272,7 @@ module.exports = grammar({
       ),
     )),
 
-    _identifier: $ => /[_a-zA-ZͰ-ϿĀ-ſ\U0001D400-\U0001D7FF][_`'`a-zA-Z0-9Ͱ-ϿĀ-ſ∇!?\u2070-\u209F\U0001D400-\U0001D7FF]*/,
+    _identifier: $ => /[_a-zA-ZͰ-ϿĀ-ſ\u2100-\u214F\U0001D400-\U0001D7FF][_`'`a-zA-Z0-9Ͱ-ϿĀ-ſ∇!?\u2070-\u209F\u2100-\u214F\U0001D400-\U0001D7FF]*/,
     _escaped_identifier: $ =>  /«[^»]*»/,
 
     ...attr,

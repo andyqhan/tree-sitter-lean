@@ -129,10 +129,17 @@ module.exports = {
       '∀',
       field(
         'binders',
-        alias(repeat1(choice($._simple_binder, $._bracketed_binder)), $.binders),
+        alias(repeat1(choice($._simple_binder, $._bounded_binder, $._bracketed_binder)), $.binders),
       ),
       ',',
       field('body', $._expression),
+    )),
+
+    // Bounded binder: x > 0 or x ≥ 0 or x ∈ S
+    _bounded_binder: $ => prec.left(seq(
+      field('name', $._binder_ident),
+      choice('>', '≥', '>=', '<', '≤', '<=', '∈', '∉'),
+      $._expression,
     )),
 
     _simple_binder: $ => seq(
@@ -256,6 +263,9 @@ module.exports = {
       $._expression,
     ),
 
+    // Absolute value using tortoise shell brackets (preprocessing replaces |x| with ⦇x⦈)
+    abs: $ => seq('⦇', $._expression, '⦈'),
+
     _notation_term: $ => choice(
       $.product,
       $.unary_expression,
@@ -263,6 +273,7 @@ module.exports = {
       $.if_then_else,
       $.list,
       $.assumption_literal,
+      $.abs,
     ),
 
     // src/Init/NotationExtra.lean
@@ -270,7 +281,7 @@ module.exports = {
       '∃',
       field(
         'binders',
-        alias(repeat1(choice($._simple_binder, $._bracketed_binder)), $.binders),
+        alias(repeat1(choice($._simple_binder, $._bounded_binder, $._bracketed_binder)), $.binders),
       ),
       ',',
       field('body', $._expression),
